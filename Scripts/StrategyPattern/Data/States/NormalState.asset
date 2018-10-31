@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad74f19ab8701764b85a8986279bd63b, type: 3}
+  m_Name: NormalState
+  m_EditorClassIdentifier: 
+  OnStateActions: []
+  OnEnterAction: []
+  OnExitAction: []
+  Transitions:
+  - Condition: {fileID: 11400000, guid: 212c5c41705812b47baa6e15552424d5, type: 2}
+    TargetState: {fileID: 11400000, guid: 54036d4752716ab48b7d62661f86768c, type: 2}
+    CheckIf: 1
+    Disable: 0
